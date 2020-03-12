@@ -25,7 +25,7 @@ def get_japanese_emoticon(path, emoticon)
     end
   end
   
-  return "Sorry homie"
+  return "Sorry homie, I didn't find it"
 end
 
 def get_english_meaning

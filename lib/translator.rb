@@ -9,7 +9,7 @@ def load_library(path)
   }
   
   libary.each do |meaning, emoticons|
-    hash["get_meaning"][]
+    hash["get_meaning"][emoticons]
   end
   
   return hash

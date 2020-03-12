@@ -11,6 +11,7 @@ def load_library(path)
   library.each do |meaning, emoticon|
     hash["get_meaning"] = meaning
     hash["get_emoticon"] = emoticon
+  end
   
   return hash
 end

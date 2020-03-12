@@ -18,6 +18,14 @@ end
 
 def get_japanese_emoticon(path, emoticon)
   hash = load_library(path)
+  
+  hash.each do |key, value|
+    if emoticon == key
+      return value
+    end
+  end
+  
+  return "Sorry homie"
 end
 
 def get_english_meaning

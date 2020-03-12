@@ -23,9 +23,8 @@ def get_japanese_emoticon(path, emoticon)
     if emoticon == key
       return value
     end
+    return "Sorry"
   end
-  
-  return "Sorry homie, I didn't find it"
 end
 
 def get_english_meaning

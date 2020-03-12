@@ -12,6 +12,7 @@ def load_library(path)
     hash[:get_meaning][emoticons[1]] = meaning
     hash[:get_emoticon][emoticons[0]] = emoticons[1]
   end
+  
   return hash
 end
 
